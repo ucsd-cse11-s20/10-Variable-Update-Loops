@@ -1,5 +1,5 @@
 class VariablesExamples {
-  public static void main(String[] args) {
+  public static void main(String[] anotherNameNotArgs) {
 
     int n = 10;
     int m = n + 1;
@@ -11,6 +11,7 @@ class VariablesExamples {
 
     int x = 10;
     x = 20;
+    x += 3; // has the same effect as x = x + 3
     int y = x + 1;
 
     System.out.println("x: " + x);
