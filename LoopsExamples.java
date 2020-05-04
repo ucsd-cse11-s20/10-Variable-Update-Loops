@@ -86,7 +86,7 @@ class LoopsExamples {
   // {1, 2, 7, 4} -> 6      Give me another test!
   // {4, 2, 4, 5} -> 10 
   // {0, -2, 7, 4, 8} -> 10
-  int sumEvent(int[] arr) {
+  int sumEvens(int[] arr) {
     int sum = 0;
     for(int i: arr) {
       if(i % 2 == 0) {
